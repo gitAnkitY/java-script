@@ -27,3 +27,7 @@ num=Math.floor(num);
 
 //step4
 num=num+1;
+
+//*********/ shortcut for random number ********
+
+let random= Math.floor(Math.random()*10+1);
