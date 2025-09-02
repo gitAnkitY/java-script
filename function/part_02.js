@@ -39,3 +39,22 @@ function printTable(n){
 }
 
 printTable(7);
+
+// return keyword and printing 
+// return = gives back a value for future use
+//console.log = shows the value temporarily on the screen (console)
+____________________________________________________________________________________________________________________________________
+
+// example 
+// create a function that returns the sum of numbers from 1 to n
+
+function sumOfN(){
+    let n=5;
+    let sum=0;
+    while (i<=n){
+        sum=sum+i;
+    }
+    console.log("your sum of n is ");
+    return sum;
+}
+
