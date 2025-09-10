@@ -1,0 +1,49 @@
+// manipulation using Properties & Method
+
+//***INNER TEXT***//
+//show the visible text contained in a node 
+
+// Reads or writes HTML inside an element.
+
+// Interprets HTML tags (like <b>, <p>, <span>).
+
+// If you set it, the browser will parse it as HTML.
+
+
+
+//****(text Content)****//
+// show all the full text
+
+// Reads or writes all the text inside an element.
+
+// Does not care about CSS styles (even hidden text is included).
+
+// Does not parse HTML tags (they will be shown as text).
+
+// ******( inner html )****
+// show the full markup
+
+// Reads or writes only the visible text of an element.
+
+// Ignores HTML tags (treats them as plain text).
+
+// Respects CSS styling like display:none or visibility:hidden (hidden text won’t be shown).
+
+// example =>
+    <div id="demo">
+  <b>Hello</b> 
+  <span style="display:none">Hidden</span> World
+</div>
+
+<script>
+  let el = document.getElementById("demo");
+
+  console.log("innerHTML:", el.innerHTML);
+  // <b>Hello</b> <span style="display:none">Hidden</span> World
+
+  console.log("innerText:", el.innerText);
+  // Hello World
+
+  console.log("textContent:", el.textContent);
+  // Hello Hidden World
+</script>
