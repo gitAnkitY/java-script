@@ -63,6 +63,18 @@ box.classList.toggle("green");
 let cbox= document.querySelector(".box")
 box.classList.contains("green"); // true 
 
+// Adding element on the page 
+
+let newP=document.createElement("p");
+newP.innerText="hi! i am Ankit";
+let body=document.querySelector('body');
+body.appendChild(newP);
+
+
+let button=document.createElement('button');
+button.innerText="click me !"
+let sbox=document.querySelector(".box");
+sbox.appendChild(button);
     
 
 
