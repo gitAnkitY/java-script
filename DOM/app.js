@@ -26,8 +26,44 @@ document.getElementsByClassName("oldImg")[2].src = "creation_1.png";
 //  document.querySelector(".className");  // by class
 //  document.querySelector("p");           // first <p> tag
 
+// Style Manipulation //
 
+// Style property =>  style mainipulation overrides the css style or we can say it just add in line styling 
 
+let heading = document.querySelector("h1")
+heading.style.color="blue";
+
+// Manipultion Attribute  => Set Attribute
+// The setAttribute() method is used to add a new attribute to an element or change the value of an existing attribute.
+// attribute like  => The name of the attribute (e.g., src, href, id, class, etc.)
+
+let img= document.querySelector("img");
+img.setAttribute("src","spiderman_img.png");
+
+// classList Manipulation
+// The classList property in JavaScript gives you an easy way to add, remove, toggle, and check CSS classes of an element.
+// It’s much better than manipulating the "class" attribute directly.
+// synatx=>  element.classList.method("className");
+// Methods =>
+    // add
+
+let box= document.querySelector(".box");
+box.classList.add("green");
+
+    // remove 
+let abox= document.querySelector(".box")
+box.classList.remove("green");
+
+    // toggle
+let bbox= document.querySelector(".box")
+box.classList.toggle("green");
+
+    // contain
+
+let cbox= document.querySelector(".box")
+box.classList.contains("green"); // true 
+
+    
 
 
 
