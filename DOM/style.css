@@ -12,6 +12,9 @@ body {
   width: 200px;
   padding: 1rem;
 }
+.green{
+  background-color: green;
+}
 
 .boxLink {
   text-decoration: none;
