@@ -1,0 +1,20 @@
+
+********************( API )********************
+
+A Web API is an interface that allows applications to communicate with 
+servers over the internet using HTTP requests, usually exchanging data 
+in formats like JSON or XML.
+
+*******************( JSON )************
+
+JSON (JavaScript Object Notation)
+
+*Definition:
+JSON is a lightweight format for storing and exchanging data.
+ It’s easy for humans to read and easy for machines to parse.
+
+Key Points
+
+=>Data is stored as key-value pairs.
+=>Used a lot in Web APIs to send/receive data.
+=>Works in almost all programming languages.
