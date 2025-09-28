@@ -18,3 +18,7 @@ Key Points
 =>Data is stored as key-value pairs.
 =>Used a lot in Web APIs to send/receive data.
 =>Works in almost all programming languages.
+
+Api testing tools are =>
+1. postman (need sign up)
+2. Hoppscotch(free and no signup needed)
