@@ -1,0 +1,60 @@
+What is AJAX?
+
+AJAX stands for Asynchronous JavaScript and XML.
+It allows web pages to send and receive data from a server without
+reloading the whole page.
+
+Example: When you scroll Instagram, new posts load automatically without
+refreshing the page — that’s AJAX.
+
+// what is HTTP verb
+
+In HTTP (HyperText Transfer Protocol), verbs (also called methods) define the action you
+want to perform on a resource (like data in a server).
+
+Common HTTP Verbs:
+
+1. GET → Retrieve data from the server
+  Example: Fetching user details.
+  fetch("https://api.example.com/users")
+
+2.POST → Send new data to the server
+  Example: Creating a new user.
+  fetch("https://api.example.com/users", { method: "POST" })
+
+3.DELETE → Remove data from the server
+  Example: Deleting a user.
+  fetch("https://api.example.com/users/1", { method: "DELETE" })
+
+
+    //What is a Status Code?
+
+When you send a request to a server (using AJAX, fetch, browser, etc.),
+the server responds with:
+
+Data (if available)
+  A status code → tells whether the request was successful, failed, or redirected.
+
+    00 OK → Order placed successfully.
+
+404 Not Found → Item not available.
+
+401 Unauthorized → You must log in first.
+
+500 Server Error → Website crashed.
+
+
+     ADDING INFORMATION TO API URL 
+
+BY QUERY STRING: 
+    A query string is the part of a URL that comes after ? and 
+    contains key-value pairs separated by &.
+    
+    EX:=> https://example.com/page?key1=value1&key2=value2
+
+    ? → starts the query string
+
+    key=value → represents a piece of information
+
+    & → separates multiple key-value pairs
+ 
